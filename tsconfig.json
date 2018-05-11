@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "sourceMap": true,
+      "moduleResolution": "node",
+      "jsx": "react",
+      "lib": ["es2015", "dom"],
+      "target": "es5",
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noImplicitAny": true,
+      "suppressImplicitAnyIndexErrors": true,
+      "noUnusedLocals": true,
+      "typeRoots": [
+        "./node_modules/@types/",
+        "./types/"
+      ],
+      "baseUrl": ".",
+      "paths": {
+        "@teamprevent/common" : ["./src/App.Common/src"]
+      }
+    },
+    "include": [
+      "./src/**/*.ts",
+      "./src/**/*.tsx"
+    ],
+    "exclude": [
+      "./src/**/*.test.ts",
+      "./src/**/*.test.tsx"
+    ]  
+  }

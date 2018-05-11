@@ -1,0 +1,56 @@
+{
+  "name": "samplesingleprojectjson",
+  "version": "1.0.0",
+  "description": "Sample for using a single project.json",
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "NewOrbit Ltd",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NewOrbit/TeamPrevent.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NewOrbit/TeamPrevent/issues"
+  },
+  "homepage": "https://github.com/NewOrbit/TeamPrevent#readme.md",
+  "dependencies": {
+    "@types/react": "^16.0.38",
+    "@types/react-dom": "^16.0.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.9",
+    "@types/enzyme-adapter-react-16": "^1.0.2",
+    "alsatian": "2.1.0",
+    "awesome-typescript-loader": "^3.5.0",
+    "css-loader": "^0.28.10",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "faucet": "0.0.1",
+    "file-loader": "^0.11.2",
+    "filemanager-webpack-plugin": "^1.0.26",
+    "node-sass": "^4.5.3",
+    "react-addons-test-utils": "^15.6.2",
+    "resolve-url-loader": "^2.3.0",
+    "sass-loader": "^6.0.7",
+    "source-map-loader": "^0.2.1",
+    "style-loader": "^0.19.0",
+    "stylelint": "^8.4.0",
+    "stylelint-order": "^0.8.1",
+    "stylelint-scss": "^2.4.0",
+    "stylelint-webpack-plugin": "^0.10.3",
+    "tap-bark": "^1.0.0",
+    "tap-xunit": "^2.2.0",
+    "ts-node": "^4.1.0",
+    "tsc-resolve": "^1.0.6",
+    "tslint": "^5.9.1",
+    "tslint-loader": "^3.6.0",
+    "typescript": "^2.7.2",
+    "uglifyjs-webpack-plugin": "^1.2.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.11.0"
+  }
+}

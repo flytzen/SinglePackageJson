@@ -1,0 +1,9 @@
+﻿{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "lib": ["es2015", "dom"],
+    "target": "es5"
+  }
+}
